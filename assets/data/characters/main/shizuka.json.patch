@@ -29,69 +29,8 @@
 	"index": ["parts", 2]
 }, 
 {
-	"type": "SET_KEY",
-	"index": "ex2_normSuspicious",
-	"content": {
-		"srcX": 0,
-		"srcY": 0,
-		"width": 96,
-		"height": 56,
-		"destX": 0,
-		"destY": 32,
-		"img": "ex2-shizuka"
-    }
-}, 
-{
-	"type": "SET_KEY",
-	"index": "ex2_downEyesClosed",
-	"content": {
-		"srcX": 0,
-		"srcY": 56,
-		"width": 96,
-		"height": 56,
-		"destX": 0,
-		"destY": 32,
-		"img": "ex2-shizuka"
-    }
-},
-{
-	"type": "SET_KEY",
-	"index": "ex2_downPissed",
-	"content": {
-		"srcX": 0,
-		"srcY": 112,
-		"width": 96,
-		"height": 56,
-		"destX": 0,
-		"destY": 32,
-		"img": "ex2-shizuka"
-    }
-},
-{
-	"type": "SET_KEY",
-	"index": "ex2_normDisappointed",
-	"content": {
-		"srcX": 0,
-		"srcY": 168,
-		"width": 96,
-		"height": 56,
-		"destX": 0,
-		"destY": 32,
-		"img": "ex2-shizuka"
-    }
-},
-{
-	"type": "SET_KEY",
-	"index": "ex2_downAnnoyed",
-	"content": {
-		"srcX": 0,
-		"srcY": 224,
-		"width": 96,
-		"height": 56,
-		"destX": 0,
-		"destY": 32,
-		"img": "ex2-shizuka"
-    }
+	"type": "IMPORT",
+	"src": "mod:patches/parts/shizuka.json"
 },
 {
 	"type": "EXIT",
@@ -104,103 +43,8 @@
 	"index": "expressions"
 }, 
 {
-	"type": "SET_KEY",
-	"index": "EX2_SUSPICIOUS",
-	"content": {
-	    "faces": [
-	      [
-			  "straight",
-			  "norm",
-			  "ex2_normSuspicious"
-	      ]
-	    ]
-    }
-},
-{
-	"type": "SET_KEY",
-	"index": "EX2_EYES_CLOSED",
-	"content": {
-	    "faces": [
-	      [
-			  "straight",
-			  "down",
-			  "ex2_downEyesClosed"
-	      ]
-	    ]
-    }
-},
-{
-	"type": "SET_KEY",
-	"index": "EX2_PISSED",
-	"content": {
-	    "faces": [
-	      [
-			  "straight",
-			  "down",
-			  "ex2_downPissed"
-	      ]
-	    ]
-    }
-},
-{
-	"type": "SET_KEY",
-	"index": "EX2_DISAPPOINTED",
-	"content": {
-	    "faces": [
-	      [
-			  "straight",
-			  "norm",
-			  "ex2_normDisappointed"
-	      ]
-	    ]
-    }
-},
-{
-	"type": "SET_KEY",
-	"index": "EX2_ANNOYED",
-	"content": {
-	    "faces": [
-	      [
-			  "straight",
-			  "down",
-			  "ex2_downAnnoyed"
-	      ]
-	    ]
-    }
-},
-{
-	"type": "SET_KEY",
-	"index": "EX2_PASSIVE_AGGRESSIVE",
-	"content": {
-		"anim": [
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			1,
-			2
-		],
-		"time": 0.15,
-	    "faces": [
-			[
-				"straight",
-				"down",
-				"downDenying"
-			],
-			[
-				"straight",
-				"down",
-				"ex2_downEyesClosed"
-			],
-			[
-				"straight",
-				"down",
-				"ex2_downPissed"
-			]
-	    ]
-    }
+	"type": "IMPORT",
+	"src": "mod:patches/expressions/shizuka.json"
 },
 {
 	"type": "EXIT",
