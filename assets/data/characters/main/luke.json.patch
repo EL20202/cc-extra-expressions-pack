@@ -29,30 +29,8 @@
 	"index": ["parts", 2]
 }, 
 {
-	"type": "SET_KEY",
-	"index": "ex2_towardsSideWink",
-	"content": {
-		"srcX": 0,
-		"srcY": 0,
-		"width": 80,
-		"height": 64,
-		"destX": 40,
-		"destY": 40,
-		"img": "ex2-luke"
-    }
-}, 
-{
-	"type": "SET_KEY",
-	"index": "ex2_upImpressed",
-	"content": {
-		"srcX": 0,
-		"srcY": 64,
-		"width": 80,
-		"height": 64,
-		"destX": 40,
-		"destY": 40,
-		"img": "ex2-luke"
-    }
+	"type": "IMPORT",
+	"src": "mod:patches/parts/luke.json"
 }, 
 {
 	"type": "EXIT",
@@ -63,32 +41,10 @@
 {
 	"type": "ENTER",
 	"index": "expressions"
-}, 
+},
 {
-	"type": "SET_KEY",
-	"index": "EX2_SIDE_WINK",
-	"content": {
-	    "faces": [
-	      [
-			  "folded",
-			  "towards",
-			  "ex2_towardsSideWink"
-	      ]
-	    ]
-    }
-}, 
-{
-	"type": "SET_KEY",
-	"index": "EX2_IMPRESSED_UP",
-	"content": {
-	    "faces": [
-	      [
-			"folded",
-			"up",
-			"ex2_upImpressed"
-	      ]
-	    ]
-    }
+	"type": "IMPORT",
+	"src": "mod:patches/expressions/luke.json"
 }, 
 {
 	"type": "EXIT",
