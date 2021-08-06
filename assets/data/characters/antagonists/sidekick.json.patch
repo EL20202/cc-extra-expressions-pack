@@ -29,17 +29,8 @@
 	"index": ["parts", 2]
 }, 
 {
-	"type": "SET_KEY",
-	"index": "ex2_upTranquil",
-	"content": {
-		"srcX": 0,
-		"srcY": 0,
-		"width": 72,
-		"height": 64,
-		"destX": 64,
-		"destY": 16,
-		"img": "ex2-joern"
-    }
+	"type": "IMPORT",
+	"src": "mod:patches/parts/joern.json"
 }, 
 {
 	"type": "EXIT",
@@ -52,17 +43,9 @@
 	"index": "expressions"
 }, 
 {
-	"type": "SET_KEY",
-	"index": "EX2_TRANQUIL",
-	"content": {
-	    "faces": [
-	      [
-			  "straight",
-			  "up",
-			  "ex2_upTranquil"
-	      ]
-	    ]
-    }
+	"type": "IMPORT",
+	"src": "mod:patches/expressions/joern.json"
+
 }, 
 {
 	"type": "EXIT",
